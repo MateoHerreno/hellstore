@@ -1,0 +1,93 @@
+.body {
+    color: #F8F5F2;
+    background-color: #3E5C76;
+}
+/*boton wats */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 15%; /* Posición media-baja */
+    right: 0.5em; /* Margen desde el borde izquierdo */
+    background: linear-gradient(90deg, #BFA0DA,#75d799);
+    color:#F8F5F2 ;
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 1em rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+.whatsapp-btn:hover {
+    transform: scale(1.2); /* Efecto de zoom al pasar el mouse */
+}
+
+/*iconos redes*/
+#social .contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: transparent; 
+}
+.redes-sociales a {
+    color: #F8F5F2;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.redes-sociales a:hover {
+    color: #F4A988 ;
+}
+
+/*nav*/
+.icono-nav{
+    width: 3em; /* Tamaño del logo */
+    margin-left: 0.5em;
+}
+
+.itemNav{
+    text-decoration: none; 
+    color: #F8F5F2; 
+    padding: 8px 12px;
+    transition: color 0.3s ease, background 0.3s ease; 
+}
+
+.itemNav:hover {
+    color: #F4A988;
+    
+    border-radius: 5px; 
+}
+
+/*footer*/
+
+.footerimag{
+    background-image: url(../img/footer.png);
+    background-size: cover; 
+    background-position: bottom center; 
+    background-repeat: no-repeat; 
+    height: 100%; 
+}
+
+.miFooter i {
+    color:#F8F5F2;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.2rem; 
+    margin-right: 0.5em; 
+}
+.miFooter h2{
+    font-family: "Dancing Script", cursive;
+}
+.headerimag {
+    background-image: linear-gradient(to top, rgba(62, 92, 118, 0.766) 1%, rgba(238, 242, 242, 0) 99%),  
+                      url(../img/header.png);
+    background-size: cover; 
+    background-position: bottom center; 
+    background-repeat: no-repeat; 
+    height: 100%; 
+}
+.headerimag h1{
+    font-family: "Dancing Script", cursive;
+}
