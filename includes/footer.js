@@ -1,4 +1,4 @@
-export function footer(telefono,email){
+export function footer(cel,email){
     return`
     <div class="container-fluid footerimag">
         <div class="container-fluid d-flex justify-content-end miFooter">
@@ -6,7 +6,7 @@ export function footer(telefono,email){
                 <br>
                 <h2 class="pe-3 pb-2"> Contactanos</h2>
                 <br>
-                <p ><i class="fa-solid fa-phone"></i>${telefono}</p>
+                <p ><i class="fa-solid fa-phone"></i>${cel}</p>
                 <p ><i class="fa-solid fa-envelope"></i>${email}</p>
                 <br>
             </div>

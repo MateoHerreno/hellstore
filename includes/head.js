@@ -1,4 +1,4 @@
-export function header(title,route) {
+export function head(title,route) {
     return `
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
