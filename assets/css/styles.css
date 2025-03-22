@@ -81,13 +81,37 @@
     font-family: "Dancing Script", cursive;
 }
 .headerimag {
-    background-image: linear-gradient(to top, rgba(62, 92, 118, 0.766) 1%, rgba(238, 242, 242, 0) 99%),  
+    background-image: linear-gradient(to top, rgba(62, 92, 118, 0) 99%, rgba(238, 242, 242, 0.766) 1%),  
                       url(../img/header.png);
     background-size: cover; 
     background-position: bottom center; 
     background-repeat: no-repeat; 
     height: 100%; 
 }
-.headerimag h1{
+.cursiva {
     font-family: "Dancing Script", cursive;
+    text-shadow: 2px 2px 5px rgb(136, 0, 255);
+ }
+.titulo {
+    background: url('../img/titulos2.jpg') no-repeat center center/cover;
+}
+/* cartas de producto */
+.carta {
+    background: url('../img/fondocard.png') no-repeat center center/cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carta:hover {
+    transform: scale(1.05);
 }
